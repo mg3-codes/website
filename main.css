@@ -141,12 +141,6 @@ nav .button-container .button a:hover {
 	align-items: center;
 	z-index: 100;
 	position: sticky;
-
-	/* @include mediaQueries.phone() {
-		flex-direction: column-reverse;
-		min-height: 120px;
-		padding: 12px 0;
-	} */
 }
 
 .footer .copyright {
@@ -159,9 +153,16 @@ nav .button-container .button a:hover {
 	flex-grow: 0.1;
 	display: flex;
 	justify-content: space-between;
+}
 
-	/* @include mediaQueries.phone() {
-		max-width: unset;
-		min-width: 50%;
-	} */
+@media screen and (max-width: 480px) {
+	.background-box {
+		max-width: 80%;
+	}
+
+	.footer {
+		flex-direction: column-reverse;
+		min-height: 120px;
+		padding: 12px 0;
+	}
 }

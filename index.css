@@ -31,18 +31,14 @@ section.hero {
 .hero h1 {
 	font-size: 66px;
 	margin: 0;
+}
 
-	/* @include mediaQueries.phone() {
-		font-size: 44px;
-	} */
+.hero .background-box .secondary {
+	max-width: 45%;
 }
 
 .hero h2 {
 	margin: 0;
-
-	/* @include mediaQueries.phone() {
-		font-size: 26px;
-	} */
 }
 
 .about-me {
@@ -60,7 +56,7 @@ section.hero {
 .about-me .color-overlay {
 	position: absolute;
 	background-color: #425a70;
-	filter: opacity(0.4);
+	filter: opacity(0.6);
 	width: 100%;
 	height: 100%;
 	z-index: 1;
@@ -78,10 +74,6 @@ section.hero {
 	max-width: 25%;
 	overflow: hidden;
 	z-index: 2;
-
-	/* @include mediaQueries.phone() {
-				display: none;
-			} */
 }
 
 .about-me .row1 .image-container img {
@@ -95,10 +87,6 @@ section.hero {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
-	/* @include mediaQueries.phone() {
-				max-width: 100%;
-			} */
 }
 
 .about-me .row1 .text-container .background-box {
@@ -112,16 +100,6 @@ section.hero {
 
 .about-me .row1 .text-container .phone-image-container {
 	display: none;
-
-	/* @include mediaQueries.phone() {
-					display: flex;
-					justify-content: center;
-
-					img {
-						width: 30%;
-						border-radius: 300px;
-					}
-				} */
 }
 
 .about-me .row1 .text-container .facts-list {
@@ -183,4 +161,53 @@ section.hero {
 .more-info .row2 h3 {
 	margin: 0;
 	text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+	.hero h1 {
+		font-size: 46px;
+	}
+
+	.hero .background-box .secondary {
+		max-width: 70%;
+	}
+
+	.hero h2 {
+		font-size: 20px;
+	}
+
+	.about-me {
+		background-position-y: unset;
+	}
+
+	.about-me .row1 .image-container {
+		display: none;
+	}
+
+	.about-me .row1 .text-container {
+		max-width: 100%;
+	}
+
+	.about-me .row1 .text-container .background-box {
+		width: 50%;
+		margin-bottom: 26px;
+	}
+
+	.about-me .row1 .text-container .phone-image-container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.about-me .row1 .text-container .phone-image-container img {
+		width: 30%;
+		border-radius: 300px;
+	}
+
+	.more-info .row1 .background-box {
+		max-width: unset;
+	}
+
+	.more-info .row1 h2 {
+		font-size: 26px;
+	}
 }
