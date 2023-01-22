@@ -1,0 +1,134 @@
+/**
+ * © 2023 Michael Gamlem III. All Rights Reserved.
+ */
+
+* {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #ffffff;
+}
+
+a {
+	color: unset;
+	text-emphasis: unset;
+	text-decoration: unset;
+}
+
+a:hover {
+	color: unset;
+	text-emphasis: unset;
+	text-decoration: unset;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #ffffff;
+	margin: 0;
+	width: 100vw;
+}
+
+body section {
+	max-width: 100vw;
+	overflow: hidden;
+	content-visibility: auto;
+}
+
+body section h1,
+h2,
+h3,
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 46px;
+	text-align: center;
+	line-height: 1.3em;
+	margin: 20px 0;
+	z-index: 2;
+}
+
+body section h2 {
+	font-size: 32px;
+}
+
+body section h3 {
+	font-size: 24px;
+}
+
+body section h4 {
+	font-size: 14px;
+}
+
+body section p {
+	font-size: 24px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.background-box {
+	background-color: #008cff;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	padding: 10px 16px 10px 16px;
+	border-radius: 6px;
+}
+
+.border-radius {
+	border-radius: 6px;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav {
+	position: relative;
+	width: 100vw;
+	height: 75px;
+	z-index: 1000;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+	background-color: #008CFF;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+nav .logo-link {
+	height: 85%;
+}
+
+nav img.logo {
+	position: relative;
+	height: 85%;
+	margin: 0 26px 0 12px;
+}
+
+nav .button-container {
+	min-width: 40px;
+	height: 100%;
+	background-color: transparent;
+	padding: 0 8px;
+}
+
+nav .button-container:hover {
+	background-color: #007be0;
+}
+
+nav .button-container .button {
+	color: #ffffff;
+	font-size: 24px;
+	height: 100%;
+	width: 100%;
+	font-family: 'Open Sans' sans-serif;
+	font-weight: normal;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+
+nav .button-container .button a:hover {
+	text-emphasis: unset;
+	color: unset;
+}
+
+.z-100 {
+	z-index: 100;
+}
