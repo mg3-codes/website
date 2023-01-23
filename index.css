@@ -35,6 +35,7 @@ section.hero {
 
 .hero .background-box .secondary {
 	max-width: 45%;
+	margin: 0 5%;
 }
 
 .hero h2 {
