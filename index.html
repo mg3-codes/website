@@ -59,14 +59,22 @@
 				<div class="color-overlay"></div>
 				<div class="row1">
 					<div class="image-container">
-						<img src="./images/mine/profile.jpg" loading='lazy' alt='Michael Gamlem III' />
+						<picture>
+							<source srcset="./images/mine/profile/profile.webp" type="image/webp" />
+							<source srcset="./images/mine/profile/profile.jpg" type="image/jpg" />
+							<img src="./images/mine/profile.jpg" loading='lazy' alt='Michael Gamlem III' />
+						</picture>
 					</div>
 					<div class="text-container">
 						<div class="background-box flex-center">
 							<h2>Quick facts</h2>
 						</div>
 						<div class="phone-image-container">
-							<img src="./images/mine/profile.jpg" loading='lazy' alt='Michael Gamlem III' />
+							<picture>
+								<source srcset="./images/mine/profile/profile.webp" type="image/webp" />
+								<source srcset="./images/mine/profile/profile.jpg" type="image/jpg" />
+								<img src="./images/mine/profile.jpg" loading='lazy' alt='Michael Gamlem III' />
+							</picture>
 						</div>
 						<ul class="facts-list">
 							<li>Full stack web developer</li>
@@ -86,8 +94,11 @@
 			<section class="more-info">
 				<!-- SpokaneFromPalisades.jpg
 - Mark Wagner / CC BY (https://creativecommons.org/licenses/by/2.5/deed.en) -->
-				<img src="./images/others/SpokaneFromPalisades.jpg" class="background-image"
-					alt='View of Spokane, WA' />
+				<picture style="width: 100%;">
+					<source srcset="./images/others/spokane-from-palisades/SpokaneFromPalisades.webp" type="image/webp" />
+					<source srcset="./images/others/spokane-from-palisades/SpokaneFromPalisades.jpg" type="image/jpg" />
+					<img src="./images/others/spokane-from-palisades/SpokaneFromPalisades.jpg" class="background-image" loading='lazy' alt='View of Spokane, WA' />
+				</picture>
 				<div class="row1">
 					<a href='https://standardresume.co/r/michaelgamlemiii' target='_blank' rel='nooopener noreferrer'>
 						<div class="background-box flex-center">

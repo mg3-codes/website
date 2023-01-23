@@ -10,7 +10,8 @@ section.hero {
 	height: 95vh;
 	position: relative;
 	width: 100%;
-	background-image: url("./images/mine/bp-bridge.jpg");
+	background-image: image-set(url("./images/mine/bp-bridge/bp-bridge.webp"), url("./images/mine/bp-bridge/bp-bridge.jpg"));
+	background-image: -webkit-image-set(url("./images/mine/bp-bridge/bp-bridge.webp"), url("./images/mine/bp-bridge/bp-bridge.jpg"));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -48,7 +49,8 @@ section.hero {
 		BellinghamFlatironBuilding.png - Patrick Fore / Faithlife Corporation
 		CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0
 	*/
-	background-image: url("./images/others/BellinghamFlatironBuilding.png");
+	background-image: image-set(url("./images/others/bellingham-flatiron-building/BellinghamFlatironBuilding.webp"), url("./images/others/bellingham-flatiron-building/BellinghamFlatironBuilding.jpg"));
+	background-image: -webkit-image-set(url("./images/others/bellingham-flatiron-building/BellinghamFlatironBuilding.webp"), url("./images/others/bellingham-flatiron-building/BellinghamFlatironBuilding.jpg"));
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position-y: -110px;
@@ -112,6 +114,7 @@ section.hero {
 .more-info {
 	position: relative;
 	min-height: 40vh;
+	max-height: 350px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -119,9 +122,7 @@ section.hero {
 }
 
 .more-info .background-image {
-	position: absolute;
-	transform: scale(1.1);
-	height: 100%;
+	transform: scale(1.2);
 	width: 100%;
 }
 
@@ -140,6 +141,7 @@ section.hero {
 }
 
 .more-info .row1 {
+	position: absolute;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
