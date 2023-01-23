@@ -1,5 +1,6 @@
 /**
  * © 2023 Michael Gamlem III. All Rights Reserved.
+ * @format
  */
 
 section.hero {
@@ -10,8 +11,14 @@ section.hero {
 	height: 95vh;
 	position: relative;
 	width: 100%;
-	background-image: image-set(url("./images/mine/bp-bridge/bp-bridge.webp") 1x, url("./images/mine/bp-bridge/bp-bridge.jpg") 1x);
-	background-image: -webkit-image-set(url("./images/mine/bp-bridge/bp-bridge.webp") 1x, url("./images/mine/bp-bridge/bp-bridge.jpg") 1x);
+	background-image: image-set(
+		url("./images/mine/bp-bridge/bp-bridge.webp") 1x,
+		url("./images/mine/bp-bridge/bp-bridge.jpg") 1x
+	);
+	background-image: -webkit-image-set(
+		url("./images/mine/bp-bridge/bp-bridge.webp") 1x,
+		url("./images/mine/bp-bridge/bp-bridge.jpg") 1x
+	);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -19,7 +26,7 @@ section.hero {
 
 .hero .color-overlay {
 	position: absolute;
-	background-color: #008CFF;
+	background-color: #008cff;
 	filter: opacity(0.2);
 	width: 100%;
 	height: 100%;
@@ -49,8 +56,18 @@ section.hero {
 		BellinghamFlatironBuilding.png - Patrick Fore / Faithlife Corporation
 		CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0
 	*/
-	background-image: image-set(url("./images/others/bellingham-flatiron-building/BellinghamFlatironBuilding.webp") 1x, url("./images/others/bellingham-flatiron-building/BellinghamFlatironBuilding.jpg") 1x);
-	background-image: -webkit-image-set(url("./images/others/bellingham-flatiron-building/BellinghamFlatironBuilding.webp") 1x, url("./images/others/bellingham-flatiron-building/BellinghamFlatironBuilding.jpg") 1x);
+	background-image: image-set(
+		url("./images/others/bellingham-flatiron-building/BellinghamFlatironBuilding.webp")
+			1x,
+		url("./images/others/bellingham-flatiron-building/BellinghamFlatironBuilding.jpg")
+			1x
+	);
+	background-image: -webkit-image-set(
+		url("./images/others/bellingham-flatiron-building/BellinghamFlatironBuilding.webp")
+			1x,
+		url("./images/others/bellingham-flatiron-building/BellinghamFlatironBuilding.jpg")
+			1x
+	);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position-y: -110px;
@@ -107,7 +124,7 @@ section.hero {
 
 .about-me .row1 .text-container .facts-list {
 	font-size: 24px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	font-style: italic;
 }
 

@@ -1,9 +1,10 @@
 /**
  * © 2023 Michael Gamlem III. All Rights Reserved.
+ * @format
  */
 
 * {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	color: #ffffff;
 }
 
@@ -20,7 +21,7 @@ a:hover {
 }
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	color: #ffffff;
 	margin: 0;
 	width: 100vw;
@@ -36,7 +37,7 @@ body section h1,
 h2,
 h3,
 h4 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-size: 46px;
 	text-align: center;
 	line-height: 1.3em;
@@ -58,7 +59,7 @@ body section h4 {
 
 body section p {
 	font-size: 24px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 }
 
 .background-box {
@@ -116,7 +117,7 @@ nav .button-container .button {
 	font-size: 24px;
 	height: 100%;
 	width: 100%;
-	font-family: 'Open Sans' sans-serif;
+	font-family: "Open Sans" sans-serif;
 	font-weight: normal;
 	display: flex;
 	align-items: center;

@@ -1,4 +1,7 @@
-/* © 2023 Michael Gamlem III. All Rights Reserved. */
+/**
+ * © 2023 Michael Gamlem III. All Rights Reserved.
+ * @format
+ */
 
 .credits {
 	margin: 0 4%;
@@ -10,7 +13,7 @@
 .credits h1,
 .credits h2,
 .credits p {
-	font-size: 18px;;
+	font-size: 18px;
 	text-align: center;
 	color: #000000;
 }
