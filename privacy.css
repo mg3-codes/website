@@ -1,0 +1,27 @@
+/**
+ * © 2023 Michael Gamlem III. All Rights Reserved.
+ * @format
+ */
+
+.privacy {
+	margin: 0 4%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.privacy h1 {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.privacy h1,
+.privacy h2,
+.privacy p {
+	text-align: center;
+	color: #000000;
+}
+
+main a {
+	color: #008cff;
+}

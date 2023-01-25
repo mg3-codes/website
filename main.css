@@ -166,4 +166,10 @@ nav .button-container .button a:hover {
 		min-height: 120px;
 		padding: 12px 0;
 	}
+
+	.footer .links {
+		max-width: unset;
+		min-width: 50%;
+		flex-grow: unset;
+	}
 }
