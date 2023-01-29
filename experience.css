@@ -7,14 +7,18 @@ main .experience {
 	display: flex;
 	flex-direction: column;
 }
-.section {
+
+.experience .section {
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
 	flex-direction: column;
-	height: 95vh;
 	position: relative;
 	width: 100%;
+}
+
+.experience .section a {
+	text-decoration: underline;
 }
 
 .background-image {
@@ -30,23 +34,15 @@ main .experience {
 
 .experience .color-overlay {
 	position: absolute;
-	background-color: #007be0;
+	background-color: #333333;
 	filter: opacity(0.7);
 	width: 100%;
 	height: 100%;
 }
 
-/* .backgroundBox {
-		@include variables.background-box();
-	} */
-
 .work {
-	/* @include section; */
 	height: fit-content;
 }
-/* @include mediaQueries.phone() {
-			min-height: 700px;
-		} */
 
 .work .flatiron {
 	/* Patrick Fore / Faithlife Corporation, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons */
@@ -64,76 +60,51 @@ main .experience {
 	);
 }
 
-.experience .work .content {
+.experience .content {
+	width: 80%;
 	margin: 0 10%;
 	z-index: 10;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
+
+.experience .content .heading {
+	max-width: 50%;
+}
+
 .experience .work .content .text-container {
 	display: flex;
 	flex-wrap: wrap;
-	width: 90vw;
+	max-width: 90%;
 	justify-content: center;
-
-	/* @include mediaQueries.tablet() {
-					flex-direction: column;
-				} */
 }
 
 .experience .work .content .text-container .product-container {
 	margin-bottom: 5%;
-
-	/* @include mediaQueries.tablet() {
-					margin-bottom: 0;
-				} */
 }
-
-/* .technologiesContainer {
-				margin-left: 5%;
-
-				@include mediaQueries.tablet() {
-					margin-left: 0;
-					margin-bottom: 12px;
-				}
-			} */
-
-/* .backgroundBox {
-				@include variables.background-box();
-			} */
-
-/* h2 {
-				margin-bottom: 0;
-				text-align: left;
-			} */
 
 .product-container .subhead {
-	/* font-family: variables.$theme-font-body; */
 	font-style: italic;
 	text-align: left;
-	margin: 0 0 0 10px;
 }
 
-.product-container .product-section {
-	margin-left: 10px;
-}
-.product-container .product-section .product-head {
+.product-container .product-head {
 	margin: 10px 0 0 0;
 }
 
-.product-container .product-section .product-list-container {
+.product-container .product-list-container {
 	display: flex;
 	flex-wrap: wrap;
-
-	/* @include mediaQueries.phone() {
-						margin-bottom: 5%;
-					} */
 }
+
 .product-container .product-list-container ul.product-list li {
 	margin: 8px 0;
+}
 
-	/* @include mediaQueries.phone() {
-							margin: 0;
-							min-width: 26vw;
-						} */
+.experience .content .technologies-container .product-container {
+	display: flex;
 }
 
 .product-container .product-list-container ul.product-list li a.product-link {
@@ -146,24 +117,15 @@ main .experience {
 	justify-content: center;
 	width: 90vw;
 	margin-bottom: 22px;
-}
-.experience .content .technologies-container {
-	margin-left: 5%;
-
-	/* @include mediaQueries.tablet() {
-					margin-left: 0;
-					margin-bottom: 12px;
-				} */
+	min-height: 400px;
 }
 
-.education {
-	/* @include section;
-		height: 75vh;
-
-		@include mediaQueries.phone() {
-			min-height: 500px;
-		} */
+.slideshow-container .slide,
+.slideshow-container img {
+	max-width: 100%;
+	max-height: 100%;
 }
+
 .background-image.loop {
 	background-image: image-set(
 		url("./images/mine/wu-loop/wu-loop.webp") 1x,
@@ -173,14 +135,10 @@ main .experience {
 		url("./images/mine/wu-loop/wu-loop.webp") 1x,
 		url("./images/mine/wu-loop/wu-loop.jpg") 1x
 	);
-
-	/* @include mediaQueries.phone() {
-				background-position-y: 30px;
-			} */
 }
 
 .education .content {
-	margin: 5% 0 0 10%;
+	margin: 5% 0 5% 10%;
 	z-index: 10;
 }
 .education .content h2 {
@@ -194,13 +152,15 @@ main .experience {
 .education .content div.backgroundBox {
 	padding: 10px 16px 10px 16px;
 	margin-left: 10px;
-
-	/* @include mediaQueries.phone() {
-					margin-right: 10px;
-				} */
 }
 
 .education .content .education-content {
-	margin: 0 5%;
+	display: flex;
+	flex-direction: column;
 	min-width: 60vw;
+}
+
+.education .content .education-content .list-container {
+	display: flex;
+	justify-content: center;
 }
