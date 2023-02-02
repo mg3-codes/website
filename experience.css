@@ -164,3 +164,52 @@ main .experience {
 	display: flex;
 	justify-content: center;
 }
+
+@media screen and (max-width: 480px) {
+	.experience .work .content {
+		max-width: 90%;
+		width: unset;
+		margin: 0 5%;
+	}
+
+	.experience .content .heading {
+		max-width: 80%;
+	}
+
+	.experience .content .technologies-container .product-container {
+		margin: 0 10%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.experience .content .technologies-container .product-container ul {
+		margin: 0;
+		min-width: 70px;
+	}
+
+	.product-container .product-list-container {
+		max-width: 60%;
+	}
+
+	.product-container .product-list-container ul {
+		margin: 0;
+	}
+
+	.product-container .product-list-container ul.product-list li {
+		margin: 0;
+	}
+
+	.slideshow-container {
+		min-height: fit-content;
+		padding: 20px 0;
+	}
+
+	.education .content .education-content .list-container {
+		flex-direction: column;
+		margin-top: 16px;
+	}
+
+	.education .content .education-content .list-container ul{
+		margin: 0;
+	}
+}
