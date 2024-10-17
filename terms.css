@@ -1,5 +1,5 @@
 /**
- * © 2023 Michael Gamlem III. All Rights Reserved.
+ * © 2024 Michael Gamlem III. All Rights Reserved.
  * @format
  */
 
@@ -7,18 +7,25 @@
 	margin: 0 4%;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: start;
+	margin-bottom: 10px;
 }
 
 .terms h1 {
 	font-weight: bold;
 	font-style: italic;
+	align-self: center;
 }
 
 .terms h1,
-.terms h2 {
-	text-align: center;
+.terms h2,
+.terms h4 {
+	text-align: left;
 	color: #000000;
+}
+
+.terms h4 {
+	font-size: medium;
 }
 
 .terms p,
@@ -32,6 +39,7 @@
 	font-weight: bold;
 }
 
-main a {
+.terms a {
 	color: #008cff;
+	text-decoration: underline;
 }
