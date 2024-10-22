@@ -60,6 +60,17 @@ main .experience {
 	);
 }
 
+.work .wind {
+	background-image: image-set(
+		url("./images/mine/wind-farm/wild-horse-wind.webp") 1x,
+		url("./images/mine/wind-farm/wild-horse-wind.jpg") 1x
+	);
+	background-image: --webkit-image-set(
+		url("./images/mine/wind-farm/wild-horse-wind.webp") 1x,
+		url("./images/mine/wind-farm/wild-horse-wind.jpg") 1x
+	);
+}
+
 .experience .content {
 	width: 80%;
 	margin: 0 10%;
@@ -210,7 +221,7 @@ main .experience {
 		margin-top: 16px;
 	}
 
-	.education .content .education-content .list-container ul{
+	.education .content .education-content .list-container ul {
 		margin: 0;
 	}
 }
